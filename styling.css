@@ -267,5 +267,37 @@ h1 {text-align: center;
     text-align: center;
     margin-bottom: 2rem;
 }
+@media only screen and (max-width:768px){
+    
+    .inner-nav{
+        display: block;
+        position: relative;
+       
+    }
+    img{
+        display: flex;
+        justify-content: center;
+    }
+    .showcase img{
+        display: flex;
+        height: 100vh;
+        justify-content: center;
+        width: 100vh;
+    }
+    .eee{
+        display: block;
+    }
+    .sol,.sag {
+       
+        display: flex;
+        flex-wrap: nowrap;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 20vh;
+    }
+    .simgeler{
+        display: block;
+    }
+}
 
 
